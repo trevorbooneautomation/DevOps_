@@ -1,0 +1,17 @@
+<FirstLogonCommands>
+    <SynchronousCommand>
+        <CommandLine>cmd /c "mkdir C:\Path"</CommandLine>
+        <Description>Create the Directory</Description>
+        <Order>11</Order>
+    </SynchronousCommand>
+    <SynchronousCommand>
+        <CommandLine>cmd /c "copy C:\AzureData\CustomData.bin C:\Path\automate.ps1"</CommandLine>
+        <Description>Move Connectwise Automate file to Directory</Description>
+        <Order>12</Order>
+    </SynchronousCommand>
+    <SynchronousCommand>
+        <CommandLine>powershell.exe -ExecutionPolicy Bypass -File "C:\Path\automate.ps1" -Domain ${var.domain}</CommandLine>
+        <Description>Execute script</Description>
+        <Order>13</Order>
+    </SynchronousCommand>
+</FirstLogonCommands>

@@ -1,0 +1,50 @@
+TaskUser: 
+TaskPass: 
+TaskEmailTo: 
+TaskEmailFrom: 
+TaskEmailFromPassword: 
+TaskSMTPServer:
+TaskSMTPServerPort: 
+TaskRun: true
+DomainAccount: 
+DomainPassword:
+Components:
+ - CONTROLLER
+ - DESKTOPSTUDIO
+ - STOREFRONT
+ - LICENSESERVER
+FileLocation: 'C:\Loger\logger.log'
+VDAInstall: true
+Netscaler: false
+NetscalerIP: xxx.xxx.xxx.xxx
+NetscalerVIP: xxx.xxx.xxx.xxx
+NetscalerVIPHostname: abc.example.com
+CitrixDeliveryControllerIP:  xxx.xxx.xxx.xxx
+CitrixAdmins: domain\Domain Admins
+CitrixDatabaseServer: server\SQLEXPRESS
+CitrixCatalogName: New_Domain
+CitrixCatalogDescription: New Desccripition
+CitrixCatalogAllocationType: Random
+CitrixCatalogMinFunctionalLevel: L7_9
+CitrixCatalogPersistUserChanges: OnLocal
+CitrixCatalogProvisioningType: Manual
+CitrixCatalogSessionSupport: MultiSession
+CitrixLicenseServerURLCertHash: https://xxx.xxx.xxx.xxx:8083
+CitrixLicenseServer: xxx.xxx.xxx.xxx
+CitrixLicenseServerPort: 27000
+CitrixProductCode: XDT
+CitrixProductEdition: PLT
+CitrixSiteName: citrix_site
+CitrixVDAServers:
+ - domain\testenvAd01
+ - domain\testenvAd02
+ISO: C:\loger\XenApp715.iso
+SMTPEmailTo: 
+SMTPEmailFrom:
+SMTPEmailFromPassword:
+SMTPServer:
+SMTPServerPort:
+SSMSInstall: True
+SSMSfile: C:\Loger\SSMS-Setup-ENU.exe
+SSMSurl: https://aka.ms/ssmsfullsetup
+fileurl: https://downloads.citrix.com/16637/XenApp_and_XenDesktop_7_15_5000.iso?__gda__=1599716123_becae1a42417549e48bea49e4ab5b9a2

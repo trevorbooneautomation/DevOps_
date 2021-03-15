@@ -1,0 +1,26 @@
+TaskUser: DOMAIN\ServiceAccount (Within CORE Script)
+TaskPass: Domain Service Account Password (Within CORE Script)
+TaskEmailTo: Email Notification Sent To (Within CORE Script)
+TaskEmailFrom: Email Sent From (Within CORE Script)
+TaskEmailFromPassword: Email Sent From Password (Within CORE Script)
+TaskSMTPServer: SMTP Mail Server (Within CORE Script)
+TaskSMTPServerPort: SMTP Mail Server Port (Within CORE Script)
+QBBackupDir: (Within functional Script)
+ - C:\Projects
+QBDataDir: (Within functional Script)
+ - C:\Projects
+BackupDays: -1  NOTE: Days from today so -1 would be from yesterday (Within functional Script)
+SendReport: True (Within functional Script)
+AutoBackup: False  NOTE: Attempt to run backup via Task Scheduler (These are usually auto created tasks from Quickbooks) (Within functional Script)
+AlertEmailTo: (Within functional Script)
+ - email1@yahoo.com
+ - email2@yahoo.com
+ReportEmailTo: (Within functional Script)
+ - emailnew1@yahoo.com
+ - emailnew2@yahoo.com
+ReportEmailSubject: Quickbooks Backup Report (Within functional Script)
+ReportEmailBody: Hi Team,<br><br><br>$message<br><br><br>Thanks,<br>Compass Consulting (Within functional Script)
+EmailFrom: Email Sent From (Within functional Script)
+EmailFromPassword: Email Sent From Password (Within functional Script)
+SMTPServer: SMTP Email Server (Within functional Script)
+SMTPServerPort: SMTP Email Server Port (Within functional Script)

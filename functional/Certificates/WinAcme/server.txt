@@ -1,0 +1,26 @@
+TaskUser: 
+TaskPass: 
+TaskEmailTo: 
+TaskEmailFrom: 
+TaskEmailFromPassword: 
+TaskSMTPServer: 
+TaskSMTPServerPort:
+SMTPEmailTo: 
+SMTPEmailFrom: 
+SMTPEmailFromPassword: 
+SMTPServer:
+SMTPServerPort: 
+Configuration: 
+ValidationMode: 
+Validation: 
+MainDirectory: 
+AzureEnabled: 
+AzureTenantId: 
+AzureClientId: 
+AzureSecret: 
+AzureSubscriptionId: 
+AzureResourceGroupName: 
+WebsiteRoot: C:\inetpub\wwwroot
+DefaultWebsite: true
+Websites:
+ - '*.example.com'
